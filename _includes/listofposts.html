@@ -1,0 +1,9 @@
+<div class='pictures'>
+  {% for post in site.posts %}
+    <div class='pic'>
+      <a href="{{ post.url }}">
+        <img src="{{ post.src }}" alt="">
+      </a>
+    </div>
+  {% endfor %}
+</div>
